@@ -1,0 +1,25 @@
+body {
+  background-color: #242526;
+}
+
+.board {
+  display: flex;
+  width: max-content;
+  margin: auto;
+  position: relative;
+  border: 5px solid black;
+}
+
+.blackSquare {
+  background-color: black;
+  border: 2px solid red;
+  width: 100px;
+  height: 100px;
+}
+
+.whiteSquare {
+  background-color: white;
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+}
